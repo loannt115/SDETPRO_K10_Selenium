@@ -20,7 +20,6 @@ public class LoginPageTest implements Urls {
             loginFormComp.usernameElem().sendKeys("test");
 
             Thread.sleep(2000);
-
         } catch (Exception e){
             e.printStackTrace();
         }
